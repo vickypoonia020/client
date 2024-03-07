@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import Layout from "@/components/shared/Layout";
 import "../styles/css/layout.scss";
 import "../styles/css/homepage.scss";
+import 'tailwindcss/tailwind.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

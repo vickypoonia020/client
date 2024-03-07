@@ -10,20 +10,18 @@ function Index() {
 
   return (
     <>
-      <div className={styles.home_img}>
-        <div className={styles.main}>
-          <div className={styles.button_container}>
-            <button
-              className={`${styles.button} ${
-                activeButton === "button1" ? styles.active : ""
-              }`}
-              style={{
-                backgroundColor:
-                  activeButton === "button1" ? "blue" : "initial",
-              }}
-              onClick={() => handleClick("button1")}
-            >
-              BUY BTC
+      <div className="home-img">
+        {/* <img src="/images/HomeBanner.jpg" alt="home-img.jpg" /> */}
+      </div>
+      {/* <div className="home-text-block">
+        <div home-txt>
+          <h1>Hundreds of Flavors Under One Roof</h1>
+          <h3>Something Hot. Something Spicy.</h3>
+        </div>
+        <div className="order-btn-block">
+          <Link href="/order-now" style={{textDecoration:"none"}}>
+            <button className="btn-order-now">
+              Order Now <KeyboardDoubleArrowRightOutlinedIcon />
             </button>
             <button
               className={`${styles.button} ${
@@ -351,7 +349,7 @@ function Index() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

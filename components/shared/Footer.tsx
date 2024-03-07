@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../../styles/css/footer.module.scss";
+// import styles from "../../styles/css/footer.module.scss";
 
 const Footer = () => {
   return (
     <footer>
-      <div className={styles.footer}>
-        <div className={styles.imageContainer}>
+      <div >
+        <div>
           <Image
             src="/images/BG1.jpeg"
             alt="BG1"
@@ -20,7 +20,7 @@ const Footer = () => {
           <p>Text below BG1 image</p>
         </div>
         <div>VISIT US</div>
-        <div className={styles.imageContainer}>
+        <div>
           <Image
             src="/images/BG2.jpeg"
             alt="BG2"
@@ -32,13 +32,13 @@ const Footer = () => {
           <p>Text below BG2 image</p>
           <p>Text below BG2 image</p>
           <p>Text below BG2 image</p>
-        </div>
-        {/* <div>INSTAGRAM</div> */}
+        </div> 
+        <div>INSTAGRAM</div>
         
-        {/* <div>ICON</div> */}
+        <div>ICON</div>
       </div>
+      {/* {/* <h1>Hello World</h1> */}
     </footer>
   );
 };
-
 export default Footer;

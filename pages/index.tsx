@@ -6,9 +6,9 @@ function index() {
   return (
     <>
       <div className="home-img">
-        <img src="/images/HomeBanner.jpg" alt="home-img.jpg" />
+        {/* <img src="/images/HomeBanner.jpg" alt="home-img.jpg" /> */}
       </div>
-      <div className="home-text-block">
+      {/* <div className="home-text-block">
         <div home-txt>
           <h1>Hundreds of Flavors Under One Roof</h1>
           <h3>Something Hot. Something Spicy.</h3>
@@ -20,7 +20,7 @@ function index() {
             </button>
           </Link>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
